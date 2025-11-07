@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MomoTrust';
+  src: url('/fonts/MomoTrustDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-dark-purple: #211832;
+  --color-md-purple: #412B6B;
+  --color-light-purple: #5C3E94;
+
+  --color-primary: #F5AD18;
+  --color-secondary: #9B5DE0;
+  --color-terciary: #FEEBF6;
+  --color-cuarto: #B33791;
+
+  --font-momo: 'MomoTrust';
+  --font-nunito: 'Nunito';
+}
+
+#top-player {
+  box-shadow: 0px 0px 15px -5px rgba(245, 171, 24, 0.288)
+}
+#img-avatar {
+  box-shadow: inset 0px 0px 50px -10px #f5ab1877;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0px 2px;
+}
+th, td {
+  padding: 6px;
+}
+
+@layer {
+  h1, h2 {
+    @apply font-momo;
+  }
+  p {
+    @apply font-nunito;
+  }
+  .table-rank {
+    @apply font-bold text-terciary w-10;
+  }
+  .table-jugador {
+    @apply text-terciary
+  }
+  .table-puntos {
+    @apply text-secondary;
+  }
+  .table-kills {
+    @apply text-secondary;
+  }
+  .ctr-enfrentamientos {
+    @apply bg-md-purple rounded-md p-2 ;
+  }
+  .ctr-admin {
+    @apply flex justify-between items-center;
+  }
+  .admin-name {
+    @apply border border-secondary text-secondary py-1 px-4 rounded-2xl text-sm;
+  }
+  .fecha {
+    @apply text-xs text-secondary;
+  }
+  .ctr-jugadores {
+    @apply mt-4 flex justify-between items-center gap-2;
+  }
+  .jugador-name {
+    @apply border border-terciary text-terciary py-1 rounded-sm bg-dark-purple w-full text-center;
+  }
+  tbody tr:first-child p {
+    @apply bg-primary;
+  }
+  tbody tr:nth-child(2) p {
+    @apply bg-secondary;
+  }
+  tbody tr:nth-child(3) p {
+    @apply bg-cuarto;
+  }
+}
