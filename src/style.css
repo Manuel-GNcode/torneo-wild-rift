@@ -75,10 +75,10 @@ th, td {
     @apply text-xs text-secondary;
   }
   .ctr-jugadores {
-    @apply mt-4 flex justify-between items-center gap-2;
+    @apply mt-4 flex justify-between items-center gap-2 sm:gap-4 lg:gap-8;
   }
   .jugador-name {
-    @apply border border-terciary text-terciary py-1 rounded-sm bg-dark-purple w-full text-center;
+    @apply border border-[#feebf686] text-terciary py-1 rounded-md bg-dark-purple w-full text-center text-sm sm:text-base;
   }
   tbody tr:first-child p {
     @apply bg-primary;

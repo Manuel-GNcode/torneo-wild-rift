@@ -2,6 +2,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 4,
     kills: 8,
     defeat: 2,
@@ -10,6 +11,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -18,6 +20,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -26,6 +29,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -34,6 +38,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -42,6 +47,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -50,6 +56,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -58,6 +65,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -66,6 +74,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -74,6 +83,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -82,6 +92,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
@@ -90,6 +101,7 @@ export const dataPlayers = [
   {
     id: 'WildDev#WDEV',
     name: 'WildDev',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,

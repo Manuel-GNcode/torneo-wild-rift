@@ -29,6 +29,7 @@ const renderPlayersInTable = (arrayPlayers)=>{
     <tr>
       <td class="table-rank"><p class="rounded-sm">${index + 1}</p></td>
       <td class="table-jugador">${player.name}</td>
+      <td class="table-jugador hidden md:block">${player.elo}</td>
       <td class="table-puntos">${player.puntos}</td>
       <td class="table-kills">${player.kills}</td>
     </tr>
