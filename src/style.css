@@ -35,6 +35,9 @@
 #img-avatar {
   box-shadow: inset 0px 0px 50px -10px #f5ab1877;
 }
+#btn-back {
+  box-shadow: 0px 4px 1px 0px #5C3E94;
+}
 table {
   border-collapse: separate;
   border-spacing: 0px 2px;
@@ -89,6 +92,12 @@ th, td {
   tbody tr:nth-child(3) p {
     @apply bg-cuarto;
   } */
+  .rules-p {
+    @apply text-terciary list-disc pl-8;
+  }
+  .rules-h2 {
+    @apply text-secondary mt-4 mb-2;
+  }
 }
 
 #btn-ins {
