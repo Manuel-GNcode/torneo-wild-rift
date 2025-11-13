@@ -6,14 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Torneo WildDev</title>
     <link href="/src/style.css" rel="stylesheet">
+
+    <meta name="description" content="Torneo polivalente de Wild rift organizado por WildDev y SiriUs, ¡animate a participar!" />
+    <meta name="keywords" content="Wild rift, torneo, competitivo, WildDev" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://torneo-wildrift.vercel.app/" />
+    <meta property="og:title" content="Torneo polivalente - WILD RIFT" />
+    <meta property="og:description" content="Torneo polivalente de Wild rift organizado por WildDev y SiriUs, ¡animate a participar!" />
+    <meta property="og:image" content="https://torneo-wildrift.vercel.app/og.png" />
+    <meta property="og:locale" content="es_ES" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="torneo-wildrift.vercel.app/" />
+    <meta property="twitter:url" content="https://torneo-wildrift.vercel.app/" />
+    <meta name="twitter:title" content="Torneo WildDev" />
+    <meta name="twitter:description" content="Torneo polivalente de Wild rift organizado por WildDev y SiriUs, ¡animate a participar!" />
+    <meta name="twitter:image" content="https://torneo-wildrift.vercel.app/og.png" />
   </head>
   <body class="bg-linear-to-br from-dark-purple via-md-purple to-dark-purple">
-    <header class="bg-[#2118327e] border-b border-b-primary backdrop-blur-sm w-full h-18 fixed z-100 flex py-2 px-4 justify-between sm:px-8 md:px-16 lg:px-20">
+    <header class="bg-[#2118327e] border-b border-b-primary backdrop-blur-sm w-full h-18 fixed z-100 flex py-2 px-6 justify-between sm:px-8 md:px-16 lg:px-20">
       <div class="flex gap-2 items-center">
         <img width="100" height="100" class="rounded-full h-9/10 w-auto" src="favicon.png" alt="Logo de WildDev">
         <div>
           <h2 class="text-primary text-sm">WildDev</h2>
-          <p class="text-secondary text-sm">Torneo Wild Rift</p>
+          <p class="text-terciary text-sm">Torneo Wild Rift</p>
         </div>
       </div>
 
@@ -30,17 +47,21 @@
 
     <main class="pt-18 min-h-dvh">
 
-      <section class="px-4 sm:px-8 md:px-16 lg:px-20">
-        
-        <div class="flex justify-center my-12 h-30 sm:h-35">
-          <img class="h-full w-auto object-contain" src="/gato_logo_nar.png" alt="">
+      <section class="max-w-180 mx-auto px-6 md:px-0">
+        <!-- Title -->
+        <div class="flex justify-center my-12 h-30 sm:h-35 md:h-40">
+          <img width="683" height="242" class="h-full w-auto object-contain" src="/gato_logo_nar.png" alt="Titulo del torneo">
         </div>
-
+        
         <article class="flex flex-col items-center gap-12">
-          <div id="top-player" class="bg-linear-to-r from-md-purple to-dark-purple w-70 rounded-xl pt-4 flex flex-col items-center overflow-hidden">
+          <!-- Inscripciones -->
+          <a id="btn-ins" class="text-3xl md:text-[38px]" href="https://docs.google.com/forms/d/e/1FAIpQLSdwhdsennxA7yTNgOySNhoFQMZZD9_O0VwOt7jsSWzQAG3itg/viewform?usp=dialog" target="_blank">¡Inscríbete aquí!</a>
+
+          <!-- Jugador top 1 -->
+          <div id="top-player" class="hidden bg-linear-to-r from-md-purple to-dark-purple w-70 rounded-xl pt-4 flex flex-col items-center overflow-hidden">
             <p class="text-terciary font-bold">JUGADOR TOP 1</p>
             <figure id="img-avatar" class="bg-dark-purple size-40 overflow-hidden rounded-full border-4 border-primary my-2">
-              <img id="top-player-img" class="size-50 object-cover" src="/cat-ambessa.png" alt="Avatar del jugador top 1">
+              <img id="top-player-img" class="size-50 object-cover" src="" alt="Avatar del jugador top 1">
             </figure>
             <h2 id="top-player-name" class="bg-linear-to-r from-md-purple via-primary to-dark-purple text-terciary text-3xl w-full text-center py-1">-|-</h2>
             <div class="w-full flex gap-2 p-2 bg-dark-purple">
@@ -59,8 +80,8 @@
             </div>
           </div>
 
-          <table class="w-full rounded-xl overflow-hidden font-nunito text-center max-w-250">
-            <caption class="font-momo py-2 text-xl text-secondary bg-linear-to-r from-[#9a5de054] to-dark-purple">Clasificación general</caption>
+          <table class="rounded-xl overflow-hidden font-nunito text-center w-full">
+            <caption class="font-momo py-2 text-xl text-secondary bg-linear-to-r from-[#9a5de054] to-dark-purple">Participantes</caption>
             <thead>
               <tr class="text-secondary bg-dark-purple">
                 <th>Rank</th>
@@ -77,7 +98,7 @@
         </article>
       </section>
 
-      <section class="py-12 px-4 sm:px-8 md:px-16 lg:w-250 lg:mx-auto lg:px-0">
+      <section class="hidden max-w-180 pt-12 mx-auto px-6 md:px-0">
         <header class="p-2 flex gap-2 items-center bg-linear-to-r from-dark-purple to-[#9a5de054]  rounded-t-xl">
           <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 9H21M7 3V5M17 3V5M7 13H17V17H7V13ZM6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="#9B5DE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
           <div>
@@ -111,11 +132,11 @@
             </div>
 
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 1</p>
+              <p class="jugador-name">Jugador 3</p>
               <span>
                 <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
               </span>
-              <p class="jugador-name">Jugador 2</p>
+              <p class="jugador-name">Jugador 4</p>
             </div>
           </div>
 
@@ -127,11 +148,11 @@
             </div>
 
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 1</p>
+              <p class="jugador-name">Jugador 5</p>
               <span>
                 <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
               </span>
-              <p class="jugador-name">Jugador 2</p>
+              <p class="jugador-name">Jugador 6</p>
             </div>
           </div>
 
@@ -143,11 +164,11 @@
             </div>
 
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 1</p>
+              <p class="jugador-name">Jugador 7</p>
               <span>
                 <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
               </span>
-              <p class="jugador-name">Jugador 2</p>
+              <p class="jugador-name">Jugador 8</p>
             </div>
           </div>
 
@@ -159,11 +180,11 @@
             </div>
 
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 1</p>
+              <p class="jugador-name">Jugador 9</p>
               <span>
                 <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
               </span>
-              <p class="jugador-name">Jugador 2</p>
+              <p class="jugador-name">Jugador 10</p>
             </div>
           </div>
 
@@ -175,17 +196,49 @@
             </div>
 
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 1</p>
+              <p class="jugador-name">Jugador 11</p>
               <span>
                 <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
               </span>
-              <p class="jugador-name">Jugador 2</p>
+              <p class="jugador-name">Jugador 12</p>
+            </div>
+          </div>
+
+          <!-- Enfrentamiento 7 -->
+          <div class="ctr-enfrentamientos">
+            <div class="ctr-admin">
+              <p class="admin-name">Admin: Sirius</p>
+              <p class="fecha">15 Nov, 8:00 pm MX</p>
+            </div>
+
+            <div class="ctr-jugadores">
+              <p class="jugador-name">Jugador 13</p>
+              <span>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+              </span>
+              <p class="jugador-name">Jugador 14</p>
+            </div>
+          </div>
+
+          <!-- Enfrentamiento 8 -->
+          <div class="ctr-enfrentamientos">
+            <div class="ctr-admin">
+              <p class="admin-name">Admin: Sirius</p>
+              <p class="fecha">15 Nov, 8:00 pm MX</p>
+            </div>
+
+            <div class="ctr-jugadores">
+              <p class="jugador-name">Jugador 15</p>
+              <span>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+              </span>
+              <p class="jugador-name">Jugador 16</p>
             </div>
           </div>
         </article>
       </section>
 
-      <footer class="py-4 border-t border-t-secondary mx-4 text-center text-secondary text-sm sm:mx-8 md:mx-16 lg:mx-20"><i>Wild Rift Tournament. &copy; Creado por WildDev</i></footer>
+      <footer class="mt-12 py-4 border-t border-t-secondary text-center text-secondary text-sm"><i>Wild Rift Tournament. &copy; Creado por WildDev</i></footer>
     </main>
 
     <script type="module" src="/src/main.js"></script>
