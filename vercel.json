@@ -1,8 +1,9 @@
 {
+  "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/rules",
-      "destination": "/rules.html"
+      "source": "/:path*",
+      "destination": "/$1"
     }
   ]
 }
