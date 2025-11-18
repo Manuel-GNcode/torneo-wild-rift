@@ -37,7 +37,7 @@ export const dataPlayers = [
   },
   {
     id: 'AS Kytzon#Kayn',
-    name: 'AS Kytzon#',
+    name: 'AS Kytzon',
     elo: 'Retador',
     puntos: 0,
     kills: 0,
@@ -45,13 +45,13 @@ export const dataPlayers = [
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-kayn.png`,
   },
   {
-    id: 'WildDev#WDEV',
-    name: '-|-',
-    elo: '-|-',
+    id: 'AS Khyone nevah#Lux',
+    name: 'AS Khyone nevah',
+    elo: 'Maestro',
     puntos: 0,
     kills: 0,
     defeat: 0,
-    catImg: '',
+    catImg: `${import.meta.env.BASE_URL}cat-players/cat-lux.png`,
   },
   {
     id: 'WildDev#WDEV',
