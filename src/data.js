@@ -72,13 +72,13 @@ export const dataPlayers = [
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-akali.png`,
   },
   {
-    id: 'WildDev#WDEV',
-    name: '-|-',
-    elo: '-|-',
+    id: 'Oris 先輩#PRO',
+    name: 'Oris 先輩',
+    elo: 'Retador',
     puntos: 0,
     kills: 0,
     defeat: 0,
-    catImg: '',
+    catImg: `${import.meta.env.BASE_URL}cat-players/cat-ahri.png`,
   },
   {
     id: 'WildDev#WDEV',
