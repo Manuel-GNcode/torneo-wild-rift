@@ -103,16 +103,11 @@ th, td {
 #btn-ins {
   display: flex;
   align-items: center;
-  background-image: radial-gradient(100% 100% at 100% 0, #F5AD18 0, #9B5DE0 100%);
+  background: #B33791;
   border-radius: 12px;
-  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #5C3E94 0 -3px 0 inset;
   color: #FEEBF6;
   font-family: 'MomoTrust';
   justify-content: center;
   padding: 12px 24px;
   white-space: nowrap;
-}
-
-#btn-ins:focus {
-  box-shadow: #5C3E94 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #5C3E94 0 -3px 0 inset;
 }
