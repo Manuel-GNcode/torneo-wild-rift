@@ -54,13 +54,13 @@ export const dataPlayers = [
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-lux.png`,
   },
   {
-    id: 'WildDev#WDEV',
-    name: '-|-',
-    elo: '-|-',
+    id: 'Nia#1528',
+    name: 'Nia',
+    elo: 'Platino',
     puntos: 0,
     kills: 0,
     defeat: 0,
-    catImg: '',
+    catImg: `${import.meta.env.BASE_URL}cat-players/cat-vex.png`,
   },
   {
     id: 'WildDev#WDEV',
