@@ -63,13 +63,13 @@ export const dataPlayers = [
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-vex.png`,
   },
   {
-    id: 'WildDev#WDEV',
-    name: '-|-',
-    elo: '-|-',
+    id: 'hacali#CALCO',
+    name: 'hacali',
+    elo: 'Diamante',
     puntos: 0,
     kills: 0,
     defeat: 0,
-    catImg: '',
+    catImg: `${import.meta.env.BASE_URL}cat-players/cat-akali.png`,
   },
   {
     id: 'WildDev#WDEV',
