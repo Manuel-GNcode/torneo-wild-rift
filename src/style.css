@@ -72,7 +72,10 @@ th, td {
     @apply flex justify-between items-center;
   }
   .admin-name {
-    @apply border border-secondary text-secondary py-1 px-4 rounded-2xl text-sm;
+    @apply border border-secondary text-secondary py-1 px-4 rounded-2xl text-[12px] sm:text-sm;
+  }
+  .admin-id {
+    @apply cursor-pointer;
   }
   .fecha {
     @apply text-xs text-secondary;
@@ -81,9 +84,9 @@ th, td {
     @apply mt-4 flex justify-between items-center gap-2 sm:gap-4 lg:gap-8;
   }
   .jugador-name {
-    @apply border border-[#feebf686] text-terciary py-1 rounded-md bg-dark-purple w-full text-center text-sm sm:text-base;
+    @apply cursor-pointer border border-[#feebf686] text-terciary py-1 rounded-md bg-dark-purple w-full text-center text-[12px] sm:text-base;
   }
-  /* tbody tr:first-child p {
+  tbody tr:first-child p {
     @apply bg-primary;
   }
   tbody tr:nth-child(2) p {
@@ -91,23 +94,11 @@ th, td {
   }
   tbody tr:nth-child(3) p {
     @apply bg-cuarto;
-  } */
+  }
   .rules-p {
     @apply text-terciary list-disc pl-8;
   }
   .rules-h2 {
     @apply text-secondary mt-4 mb-2;
   }
-}
-
-#btn-ins {
-  display: flex;
-  align-items: center;
-  background: #B33791;
-  border-radius: 12px;
-  color: #FEEBF6;
-  font-family: 'MomoTrust';
-  justify-content: center;
-  padding: 12px 24px;
-  white-space: nowrap;
 }

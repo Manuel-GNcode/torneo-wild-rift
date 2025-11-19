@@ -38,3 +38,27 @@ const renderPlayersInTable = (arrayPlayers)=>{
     $tableBody.innerHTML += trHTML;
   }
 }
+
+const $adminName = document.querySelectorAll('.admin-id');
+const $jugadorName = document.querySelectorAll('.jugador-name');
+
+$adminName.forEach(e=>{
+  e.addEventListener('click', (item)=>{
+    copyText(item.target.innerText);
+  })
+})
+$jugadorName.forEach(e=>{
+  e.addEventListener('click', (item)=>{
+    copyText(item.target.innerText);
+  })
+})
+
+const copyText = (txt) => {
+  navigator.clipboard.writeText(txt)
+    .then(() => {
+      alert("ID de jugador copiado");
+    })
+    .catch(err => {
+      console.error("Error al copiar: ", err);
+    });
+}

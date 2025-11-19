@@ -46,200 +46,351 @@
     </header>
 
     <main class="pt-18 min-h-dvh">
-
-      <section class="max-w-180 mx-auto px-6 md:px-0">
+      <article class="max-w-180 mx-auto px-6 md:px-0">
         <!-- Title -->
         <div class="flex items-center justify-center mt-12 h-30 sm:h-35 md:h-40">
           <img width="683" height="242" class="h-full w-auto object-contain" src="/gato_logo_nar.png" alt="Titulo del torneo">
         </div>
         
-        <a href="/rules" id="btn-rules" role="button" class="cursor-pointer w-fit flex gap-2 items-center text-secondary font-nunito border border-secondary py-1 px-6 rounded-2xl text-md bg-md-purple mt-6 mb-12 mx-auto">Reglamento <svg version="1.1" id="Layer_1" width="20" height="20" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve" fill="#FEEBF6"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path fill="#00000" d="M21.5,12c0.276,0,0.5-0.224,0.5-0.5v-6C22,5.224,21.776,5,21.5,5h-16C5.224,5,5,5.224,5,5.5v6 C5,11.776,5.224,12,5.5,12H21.5z M6,6h15v5H6V6z"></path> <path fill="#00000" d="M4.5,16.5C4.5,16.776,4.724,17,5,17h16c0.276,0,0.5-0.224,0.5-0.5S21.276,16,21,16H5 C4.724,16,4.5,16.224,4.5,16.5z"></path> <path fill="#00000" d="M5,22h16c0.276,0,0.5-0.224,0.5-0.5S21.276,21,21,21H5c-0.276,0-0.5,0.224-0.5,0.5S4.724,22,5,22z"></path> <path fill="#00000" d="M5,26h16c0.276,0,0.5-0.224,0.5-0.5S21.276,25,21,25H5c-0.276,0-0.5,0.224-0.5,0.5S4.724,26,5,26z"></path> <path fill="#00000" d="M30.5,7h-2.104c-0.276,0-0.5,0.224-0.5,0.5S28.12,8,28.396,8H30.5C30.776,8,31,8.225,31,8.5v22 c0,0.275-0.224,0.5-0.5,0.5H26V1.5C26,0.673,25.327,0,24.5,0h-23C0.673,0,0,0.673,0,1.5v28.359C0,31.04,0.96,32,2.141,32H21 c0.276,0,0.5-0.224,0.5-0.5S21.276,31,21,31H2.141C1.512,31,1,30.488,1,29.859V1.5C1,1.225,1.224,1,1.5,1h23 C24.776,1,25,1.225,25,1.5v30c0,0.276,0.224,0.5,0.5,0.5h5c0.827,0,1.5-0.673,1.5-1.5v-22C32,7.673,31.327,7,30.5,7z"></path> </g> </g></svg></a>
+        <a href="/rules" id="btn-rules" role="button" class="cursor-pointer w-fit flex gap-2 items-center text-secondary font-nunito border border-secondary py-1 px-6 rounded-2xl text-md bg-md-purple my-8 mx-auto">Reglamento <svg version="1.1" id="Layer_1" width="20" height="20" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve" fill="#FEEBF6"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path fill="#00000" d="M21.5,12c0.276,0,0.5-0.224,0.5-0.5v-6C22,5.224,21.776,5,21.5,5h-16C5.224,5,5,5.224,5,5.5v6 C5,11.776,5.224,12,5.5,12H21.5z M6,6h15v5H6V6z"></path> <path fill="#00000" d="M4.5,16.5C4.5,16.776,4.724,17,5,17h16c0.276,0,0.5-0.224,0.5-0.5S21.276,16,21,16H5 C4.724,16,4.5,16.224,4.5,16.5z"></path> <path fill="#00000" d="M5,22h16c0.276,0,0.5-0.224,0.5-0.5S21.276,21,21,21H5c-0.276,0-0.5,0.224-0.5,0.5S4.724,22,5,22z"></path> <path fill="#00000" d="M5,26h16c0.276,0,0.5-0.224,0.5-0.5S21.276,25,21,25H5c-0.276,0-0.5,0.224-0.5,0.5S4.724,26,5,26z"></path> <path fill="#00000" d="M30.5,7h-2.104c-0.276,0-0.5,0.224-0.5,0.5S28.12,8,28.396,8H30.5C30.776,8,31,8.225,31,8.5v22 c0,0.275-0.224,0.5-0.5,0.5H26V1.5C26,0.673,25.327,0,24.5,0h-23C0.673,0,0,0.673,0,1.5v28.359C0,31.04,0.96,32,2.141,32H21 c0.276,0,0.5-0.224,0.5-0.5S21.276,31,21,31H2.141C1.512,31,1,30.488,1,29.859V1.5C1,1.225,1.224,1,1.5,1h23 C24.776,1,25,1.225,25,1.5v30c0,0.276,0.224,0.5,0.5,0.5h5c0.827,0,1.5-0.673,1.5-1.5v-22C32,7.673,31.327,7,30.5,7z"></path> </g> </g></svg></a>
 
-        <article class="flex flex-col items-center gap-12">
-          <!-- Inscripciones -->
-          <a id="btn-ins" class="text-3xl md:text-[38px]" href="#">¡Inscripciones cerradas!</a>
-          <p class="text-terciary">El inicio del torneo se estará avisando en los próximos días</p>
+        <div class="text-center mb-12">
+          <h1 class="text-terciary text-2xl">¡Iniciamos el 22 de Noviembre!</h1>
+          <p class="text-cuarto mt-2">Ronda #1 - 22 Noviembre - Mid</p>
+          <p class="text-cuarto">Ronda #2 - 23 Noviembre - Adc</p>
+          <p class="text-cuarto">Ronda #3 - 29 Noviembre - Jgla</p>
+          <p class="text-cuarto">Ronda #4 - 30 Noviembre - Top</p>
+          <p class="text-cuarto mb-2">Ronda #5 - 06 Noviembre - Sup</p>
+          <p class="text-secondary">Dudas o solicitud de remake via <a href="https://discord.gg/5Gykxn3smz" class="font-bold text-primary">Discord</a></p>
+        </div>
+      </article>
 
-          <!-- Jugador top 1 -->
-          <div id="top-player" class="hidden bg-linear-to-r from-md-purple to-dark-purple w-70 rounded-xl pt-4 flex-col items-center overflow-hidden">
-            <p class="text-terciary font-bold">JUGADOR TOP 1</p>
-            <figure id="img-avatar" class="bg-dark-purple size-40 overflow-hidden rounded-full border-4 border-primary my-2">
-              <img id="top-player-img" class="size-50 object-cover" src="" alt="Avatar del jugador top 1">
-            </figure>
-            <h2 id="top-player-name" class="bg-linear-to-r from-md-purple via-primary to-dark-purple text-terciary text-3xl w-full text-center py-1">-|-</h2>
-            <div class="w-full flex gap-2 p-2 bg-dark-purple">
-              <div class="w-full bg-[#f5ab1848] rounded-md flex flex-col p-2 items-center">
-                <svg height="40px" width="40px" viewBox="0 0 24 24" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" stroke="#F5AD18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                <p id="top-player-puntos" class="text-terciary font-bold">0</p>
-              </div>
-              <div class="w-full bg-[#9a5de046] rounded-md flex flex-col p-2 items-center">
-                <svg width="40px" height="40px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#9B5DE0"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#9B5DE0"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#9B5DE0"></path> </g></svg>
-                <p id="top-player-kills" class="text-terciary font-bold">0</p>
-              </div>
-              <div class="w-full bg-[#b337925d] rounded-md flex flex-col p-2 items-center">
-                <svg width="40px" height="40px" viewBox="-2 0 20 20" version="1.1" fill="#B33791"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>dead [#393]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-262.000000, -6399.000000)" fill="#B33791"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M219.997571,6246.83762 C219.997571,6243.59693 217.302301,6240.95971 213.990283,6240.95971 C210.678265,6240.95971 207.982996,6243.59693 207.982996,6246.83762 C207.982996,6248.57258 208.98421,6250.12925 209.985425,6251.20589 L209.985425,6253.61779 L209.985425,6257.0407 L212.989069,6257.0407 L212.989069,6255.08139 L214.991498,6255.08139 L214.991498,6257.0407 L217.995142,6257.0407 L217.995142,6253.61779 L217.995142,6251.20589 C218.996356,6250.12925 219.997571,6248.57258 219.997571,6246.83762 M222,6246.83762 C222,6248.8224 220.998785,6250.62887 219.997571,6252.0092 L219.997571,6259 L207.982996,6259 L207.982996,6252.0092 C206.981781,6250.3869 205.729262,6248.17582 206.051653,6245.7796 C206.525227,6242.26852 209.479811,6239.43929 213.078177,6239.04939 C217.910038,6238.52723 222,6242.21464 222,6246.83762 M210.986639,6245.85797 C210.433969,6245.85797 209.985425,6246.29685 209.985425,6246.83762 L209.985425,6248.79692 C209.985425,6249.33769 210.433969,6249.77658 210.986639,6249.77658 C211.53931,6249.77658 211.987854,6249.33769 211.987854,6248.79692 L211.987854,6246.83762 C211.987854,6246.29685 211.53931,6245.85797 210.986639,6245.85797 M217.995142,6246.83762 L217.995142,6248.79692 C217.995142,6249.33769 217.546597,6249.77658 216.993927,6249.77658 C216.441257,6249.77658 215.992712,6249.33769 215.992712,6248.79692 L215.992712,6246.83762 C215.992712,6246.29685 216.441257,6245.85797 216.993927,6245.85797 C217.546597,6245.85797 217.995142,6246.29685 217.995142,6246.83762" id="dead-[#393]"> </path> </g> </g> </g> </g></svg>
-                <p id="top-player-defeat" class="text-terciary font-bold">0</p>
-              </div>
-            </div>
-          </div>
-
-          <table class="rounded-xl overflow-hidden font-nunito text-center w-full">
-            <caption class="font-momo py-2 text-xl text-secondary bg-linear-to-r from-[#9a5de054] to-dark-purple">Participantes</caption>
-            <thead>
-              <tr class="text-secondary bg-dark-purple">
-                <th>Rank</th>
-                <th>Jugador</th>
-                <th class="hidden md:block">Elo</th>
-                <th>Puntos</th>
-                <th>Kills</th>
-              </tr>
-            </thead>
-        
-            <tbody id="table-body" class="bg-dark-purple">
-            </tbody>
-          </table>
-        </article>
-      </section>
-
-      <section class="hidden max-w-180 pt-12 mx-auto px-6 md:px-0">
+      <section class="max-w-180 pb-12 mx-auto px-6 md:px-0">
         <header class="p-2 flex gap-2 items-center bg-linear-to-r from-dark-purple to-[#9a5de054]  rounded-t-xl">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 9H21M7 3V5M17 3V5M7 13H17V17H7V13ZM6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="#9B5DE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M3 9H21M7 3V5M17 3V5M7 13H17V17H7V13ZM6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
+                stroke="#9B5DE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+          </svg>
           <div>
-            <h1 class="text-base text-secondary">Próximos Enfrentamientos</h1>
-          <h2 class="text-primary text-sm">Ronda #1 - Mid line</h2>
+            <h1 class="text-base text-secondary">Próximos Enfrentamientos - Sábado 22 Nov</h1>
+            <h2 class="text-primary text-sm">Ronda #1 - Campeones del Mid line</h2>
           </div>
         </header>
-
-        <article class="bg-dark-purple flex flex-col gap-4 p-2 rounded-b-xl sm:p-4">
+      
+        <article class="bg-dark-purple flex flex-col gap-6 py-6 px-2 rounded-b-xl sm:p-6">
           <!-- Enfrentamiento 1 -->
           <div class="ctr-enfrentamientos">
             <div class="ctr-admin">
-              <p class="admin-name">Admin: Sirius</p>
-              <p class="fecha">15 Nov, 8:00 pm MX</p>
+              <p class="admin-name">Admin: <span class="admin-id">WildDev#WDEV</span></p>
+              <p class="fecha">22 Nov, 9:00 pm MX</p>
             </div>
-
+      
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 1</p>
+              <p class="jugador-name">Oris 先輩#PRO</p>
               <span>
-                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path>
+                    <path
+                      d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z"
+                      fill="#F5AD18"></path>
+                    <path
+                      d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z"
+                      fill="#F5AD18"></path>
+                  </g>
+                </svg>
               </span>
-              <p class="jugador-name">Jugador 2</p>
+              <p class="jugador-name">AS Kytzon#Kayn</p>
             </div>
           </div>
-
+      
           <!-- Enfrentamiento 2 -->
           <div class="ctr-enfrentamientos">
             <div class="ctr-admin">
-              <p class="admin-name">Admin: Sirius</p>
-              <p class="fecha">15 Nov, 8:00 pm MX</p>
+              <p class="admin-name">Admin: <span class="admin-id">SiriUs#7306</span></p>
+              <p class="fecha">22 Nov, 9:00 pm MX</p>
             </div>
-
+      
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 3</p>
+              <p class="jugador-name">Blade#2656</p>
               <span>
-                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path>
+                    <path
+                      d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z"
+                      fill="#F5AD18"></path>
+                    <path
+                      d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z"
+                      fill="#F5AD18"></path>
+                  </g>
+                </svg>
               </span>
-              <p class="jugador-name">Jugador 4</p>
+              <p class="jugador-name">AngHell#616</p>
             </div>
           </div>
-
+      
           <!-- Enfrentamiento 3 -->
           <div class="ctr-enfrentamientos">
             <div class="ctr-admin">
-              <p class="admin-name">Admin: Sirius</p>
-              <p class="fecha">15 Nov, 8:00 pm MX</p>
+              <p class="admin-name">Admin: <span class="admin-id">WildDev#WDEV</span></p>
+              <p class="fecha">22 Nov, 9:20 pm MX</p>
             </div>
-
+      
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 5</p>
+              <p class="jugador-name">AS Khyone nevah#Lux</p>
               <span>
-                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path>
+                    <path
+                      d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z"
+                      fill="#F5AD18"></path>
+                    <path
+                      d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z"
+                      fill="#F5AD18"></path>
+                  </g>
+                </svg>
               </span>
-              <p class="jugador-name">Jugador 6</p>
+              <p class="jugador-name">Darck#GV7</p>
             </div>
           </div>
-
+      
           <!-- Enfrentamiento 4 -->
           <div class="ctr-enfrentamientos">
             <div class="ctr-admin">
-              <p class="admin-name">Admin: Sirius</p>
-              <p class="fecha">15 Nov, 8:00 pm MX</p>
+              <p class="admin-name">Admin: <span class="admin-id">SiriUs#7306</span></p>
+              <p class="fecha">22 Nov, 9:20 pm MX</p>
             </div>
-
+      
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 7</p>
+              <p class="jugador-name">LF CHIMUELO #famk</p>
               <span>
-                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path>
+                    <path
+                      d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z"
+                      fill="#F5AD18"></path>
+                    <path
+                      d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z"
+                      fill="#F5AD18"></path>
+                  </g>
+                </svg>
               </span>
-              <p class="jugador-name">Jugador 8</p>
+              <p class="jugador-name">redencionArc#0101</p>
             </div>
           </div>
-
+      
           <!-- Enfrentamiento 5 -->
           <div class="ctr-enfrentamientos">
             <div class="ctr-admin">
-              <p class="admin-name">Admin: Sirius</p>
-              <p class="fecha">15 Nov, 8:00 pm MX</p>
+              <p class="admin-name">Admin: <span class="admin-id">WildDev#WDEV</span></p>
+              <p class="fecha">22 Nov, 9:40 pm MX</p>
             </div>
-
+      
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 9</p>
+              <p class="jugador-name">LFN LARRYCALECHE#AÑA</p>
               <span>
-                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path>
+                    <path
+                      d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z"
+                      fill="#F5AD18"></path>
+                    <path
+                      d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z"
+                      fill="#F5AD18"></path>
+                  </g>
+                </svg>
               </span>
-              <p class="jugador-name">Jugador 10</p>
+              <p class="jugador-name">hacali#CALCO</p>
             </div>
           </div>
-
+      
           <!-- Enfrentamiento 6 -->
           <div class="ctr-enfrentamientos">
             <div class="ctr-admin">
-              <p class="admin-name">Admin: Sirius</p>
-              <p class="fecha">15 Nov, 8:00 pm MX</p>
+              <p class="admin-name">Admin: <span class="admin-id">SiriUs#7306</span></p>
+              <p class="fecha">22 Nov, 9:40 pm MX</p>
             </div>
-
+      
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 11</p>
+              <p class="jugador-name">JHORMAR OTP#GWEN</p>
               <span>
-                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path>
+                    <path
+                      d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z"
+                      fill="#F5AD18"></path>
+                    <path
+                      d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z"
+                      fill="#F5AD18"></path>
+                  </g>
+                </svg>
               </span>
-              <p class="jugador-name">Jugador 12</p>
+              <p class="jugador-name">Venta de kamas#Tuki</p>
             </div>
           </div>
-
+      
           <!-- Enfrentamiento 7 -->
           <div class="ctr-enfrentamientos">
             <div class="ctr-admin">
-              <p class="admin-name">Admin: Sirius</p>
-              <p class="fecha">15 Nov, 8:00 pm MX</p>
+              <p class="admin-name">Admin: <span class="admin-id">WildDev#WDEV</span></p>
+              <p class="fecha">22 Nov, 10:00 pm MX</p>
             </div>
-
+      
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 13</p>
+              <p class="jugador-name">SDKTLACAELELSDK#LAN</p>
               <span>
-                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path>
+                    <path
+                      d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z"
+                      fill="#F5AD18"></path>
+                    <path
+                      d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z"
+                      fill="#F5AD18"></path>
+                  </g>
+                </svg>
               </span>
-              <p class="jugador-name">Jugador 14</p>
+              <p class="jugador-name">NovemberAjax#SUPP</p>
             </div>
           </div>
-
+      
           <!-- Enfrentamiento 8 -->
           <div class="ctr-enfrentamientos">
             <div class="ctr-admin">
-              <p class="admin-name">Admin: Sirius</p>
-              <p class="fecha">15 Nov, 8:00 pm MX</p>
+              <p class="admin-name">Admin: <span class="admin-id">SiriUs#7306</span></p>
+              <p class="fecha">22 Nov, 10:00 pm MX</p>
             </div>
-
+      
             <div class="ctr-jugadores">
-              <p class="jugador-name">Jugador 15</p>
+              <p class="jugador-name">GIR4LDO 冠#000</p>
               <span>
-                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path> <path d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z" fill="#F5AD18"></path> <path d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z" fill="#F5AD18"></path> </g></svg>
+                <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#F5AD18"></path>
+                    <path
+                      d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z"
+                      fill="#F5AD18"></path>
+                    <path
+                      d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z"
+                      fill="#F5AD18"></path>
+                  </g>
+                </svg>
               </span>
-              <p class="jugador-name">Jugador 16</p>
+              <p class="jugador-name">Nia#1528</p>
             </div>
           </div>
         </article>
       </section>
+
+      <section class="max-w-180 mx-auto px-6 md:px-0 flex flex-col items-center gap-12">
+        <!-- Jugador top 1 -->
+        <div id="top-player"
+          class="flex bg-linear-to-r from-md-purple to-dark-purple w-70 rounded-xl pt-4 flex-col items-center overflow-hidden">
+          <p class="text-terciary font-bold">JUGADOR TOP 1</p>
+          <figure id="img-avatar" class="bg-dark-purple size-40 overflow-hidden rounded-full border-4 border-primary my-2">
+            <img id="top-player-img" class="size-50 object-cover" src="" alt="Avatar del jugador top 1">
+          </figure>
+          <h2 id="top-player-name"
+            class="bg-linear-to-r from-md-purple via-primary to-dark-purple text-terciary text-3xl w-full text-center py-1">
+            </h2>
+          <div class="w-full flex gap-2 p-2 bg-dark-purple">
+            <div class="w-full bg-[#f5ab1848] rounded-md flex flex-col p-2 items-center">
+              <svg height="40px" width="40px" viewBox="0 0 24 24" fill="none">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10"
+                    stroke="#F5AD18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+              </svg>
+              <p id="top-player-puntos" class="text-terciary font-bold">0</p>
+            </div>
+            <div class="w-full bg-[#9a5de046] rounded-md flex flex-col p-2 items-center">
+              <svg width="40px" height="40px" viewBox="0 0 16 16" fill="none">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path d="M3 0L6.58579 3.58579L3.58579 6.58579L0 3V0H3Z" fill="#9B5DE0"></path>
+                  <path
+                    d="M6.70711 12.2929L8.20711 13.7929L6.79289 15.2071L4.5 12.9142L2.99771 14.4165C2.99923 14.4441 3 14.472 3 14.5C3 15.3284 2.32843 16 1.5 16C0.671573 16 0 15.3284 0 14.5C0 13.6716 0.671573 13 1.5 13C1.52802 13 1.55586 13.0008 1.5835 13.0023L3.08579 11.5L0.792893 9.20711L2.20711 7.79289L3.70711 9.29289L13 0H16V3L6.70711 12.2929Z"
+                    fill="#9B5DE0"></path>
+                  <path
+                    d="M14.5 16C13.6716 16 13 15.3284 13 14.5C13 14.472 13.0008 14.4441 13.0023 14.4165L10.0858 11.5L13.7929 7.79289L15.2071 9.20711L12.9142 11.5L14.4165 13.0023C14.4441 13.0008 14.472 13 14.5 13C15.3284 13 16 13.6716 16 14.5C16 15.3284 15.3284 16 14.5 16Z"
+                    fill="#9B5DE0"></path>
+                </g>
+              </svg>
+              <p id="top-player-kills" class="text-terciary font-bold">0</p>
+            </div>
+            <div class="w-full bg-[#b337925d] rounded-md flex flex-col p-2 items-center">
+              <svg width="40px" height="40px" viewBox="-2 0 20 20" version="1.1" fill="#B33791">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>dead [#393]</title>
+                  <desc>Created with Sketch.</desc>
+                  <defs> </defs>
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-262.000000, -6399.000000)" fill="#B33791">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                        <path
+                          d="M219.997571,6246.83762 C219.997571,6243.59693 217.302301,6240.95971 213.990283,6240.95971 C210.678265,6240.95971 207.982996,6243.59693 207.982996,6246.83762 C207.982996,6248.57258 208.98421,6250.12925 209.985425,6251.20589 L209.985425,6253.61779 L209.985425,6257.0407 L212.989069,6257.0407 L212.989069,6255.08139 L214.991498,6255.08139 L214.991498,6257.0407 L217.995142,6257.0407 L217.995142,6253.61779 L217.995142,6251.20589 C218.996356,6250.12925 219.997571,6248.57258 219.997571,6246.83762 M222,6246.83762 C222,6248.8224 220.998785,6250.62887 219.997571,6252.0092 L219.997571,6259 L207.982996,6259 L207.982996,6252.0092 C206.981781,6250.3869 205.729262,6248.17582 206.051653,6245.7796 C206.525227,6242.26852 209.479811,6239.43929 213.078177,6239.04939 C217.910038,6238.52723 222,6242.21464 222,6246.83762 M210.986639,6245.85797 C210.433969,6245.85797 209.985425,6246.29685 209.985425,6246.83762 L209.985425,6248.79692 C209.985425,6249.33769 210.433969,6249.77658 210.986639,6249.77658 C211.53931,6249.77658 211.987854,6249.33769 211.987854,6248.79692 L211.987854,6246.83762 C211.987854,6246.29685 211.53931,6245.85797 210.986639,6245.85797 M217.995142,6246.83762 L217.995142,6248.79692 C217.995142,6249.33769 217.546597,6249.77658 216.993927,6249.77658 C216.441257,6249.77658 215.992712,6249.33769 215.992712,6248.79692 L215.992712,6246.83762 C215.992712,6246.29685 216.441257,6245.85797 216.993927,6245.85797 C217.546597,6245.85797 217.995142,6246.29685 217.995142,6246.83762"
+                          id="dead-[#393]"> </path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <p id="top-player-defeat" class="text-terciary font-bold">0</p>
+            </div>
+          </div>
+        </div>
+      
+        <table class="rounded-xl overflow-hidden font-nunito text-center w-full">
+          <caption class="font-momo py-2 text-xl text-secondary bg-linear-to-r from-[#9a5de054] to-dark-purple">Clasificación
+            general</caption>
+          <thead>
+            <tr class="text-secondary bg-dark-purple">
+              <th>Rank</th>
+              <th>Jugador</th>
+              <th class="hidden md:block">Elo</th>
+              <th>Puntos</th>
+              <th>Kills</th>
+            </tr>
+          </thead>
+      
+          <tbody id="table-body" class="bg-dark-purple">
+          </tbody>
+        </table>
+      </section>
+
 
       <footer class="mt-12 py-4 border-t border-t-secondary text-center text-secondary text-sm"><i>Wild Rift Tournament. &copy; Creado por WildDev</i></footer>
     </main>
