@@ -1,5 +1,48 @@
 export const dataPlayers = [
   {
+    id: 'Blade#2656',
+    name: 'Blade',
+    elo: 'Maestro',
+    puntos: 1,
+    kills: 1,
+    defeat: 0,
+    catImg: `${import.meta.env.BASE_URL}cat-players/cat-yone.webp`,
+    wo: 0,
+  },
+  {
+    id: 'AS Khyone nevah#Lux',
+    name: 'AS Khyone nevah',
+    elo: 'Maestro',
+    puntos: 1,
+    kills: 1,
+    defeat: 0,
+    catImg: `${import.meta.env.BASE_URL}cat-players/cat-lux.webp`,
+    wo: 0,
+  },
+
+  {
+    id: 'LF CHIMUELO #famk',
+    name: 'LF CHIMUELO',
+    elo: 'Maestro',
+    puntos: 1,
+    kills: 1,
+    defeat: 0,
+    catImg: `${import.meta.env.BASE_URL}cat-players/cat-mundo.webp`,
+    wo: 0,
+  },
+
+  {
+    id: 'LFN LARRYCALECHE#AÑA',
+    name: 'LFN LARRYCALECHE',
+    elo: 'Diamante',
+    puntos: 1,
+    kills: 1,
+    defeat: 0,
+    catImg: `${import.meta.env.BASE_URL}cat-players/cat-ekko.webp`,
+    wo: 0,
+  },
+
+  {
     id: 'Oris 先輩#PRO',
     name: 'Oris 先輩',
     elo: 'Retador',
@@ -7,6 +50,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-ahri.webp`,
+    wo: 1,
   },
 
   {
@@ -17,16 +61,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-kayn.webp`,
-  },
-
-  {
-    id: 'Blade#2656',
-    name: 'Blade',
-    elo: 'Maestro',
-    puntos: 0,
-    kills: 0,
-    defeat: 0,
-    catImg: `${import.meta.env.BASE_URL}cat-players/cat-yone.webp`,
+    wo: 1,
   },
   
   {
@@ -37,16 +72,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-akali.webp`,
-  },
-
-  {
-    id: 'AS Khyone nevah#Lux',
-    name: 'AS Khyone nevah',
-    elo: 'Maestro',
-    puntos: 0,
-    kills: 0,
-    defeat: 0,
-    catImg: `${import.meta.env.BASE_URL}cat-players/cat-lux.webp`,
+    wo: 1,
   },
 
   {
@@ -57,16 +83,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-ahri.webp`,
-  },
-
-  {
-    id: 'LF CHIMUELO #famk',
-    name: 'LF CHIMUELO',
-    elo: 'Maestro',
-    puntos: 0,
-    kills: 0,
-    defeat: 0,
-    catImg: `${import.meta.env.BASE_URL}cat-players/cat-mundo.webp`,
+    wo: 1,
   },
 
   {
@@ -77,16 +94,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-sett.webp`,
-  },
-
-  {
-    id: 'LFN LARRYCALECHE#AÑA',
-    name: 'LFN LARRYCALECHE',
-    elo: 'Diamante',
-    puntos: 0,
-    kills: 0,
-    defeat: 0,
-    catImg: `${import.meta.env.BASE_URL}cat-players/cat-ekko.webp`,
+    wo: 1,
   },
 
   {
@@ -97,6 +105,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-akali.webp`,
+    wo: 1,
   },
   
   {
@@ -107,6 +116,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-darius.webp`,
+    wo: 1,
   },
   
   {
@@ -117,6 +127,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-akali.webp`,
+    wo: 1,
   },
   {
     id: 'SDKTLACAELELSDK#LAN',
@@ -126,6 +137,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-twitch.webp`,
+    wo: 1,
   },
 
   {
@@ -136,6 +148,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-nami.webp`,
+    wo: 1,
   },
 
   {
@@ -146,6 +159,7 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-kaisa.webp`,
+    wo: 1,
   },
 
   {
@@ -156,5 +170,6 @@ export const dataPlayers = [
     kills: 0,
     defeat: 0,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-vex.webp`,
+    wo: 1,
   },
 ]
