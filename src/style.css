@@ -72,13 +72,13 @@ th, td {
     @apply flex justify-between items-center;
   }
   .admin-name {
-    @apply border border-secondary text-secondary py-1 px-4 rounded-2xl text-[12px] sm:text-sm;
+    @apply py-1 px-4 rounded-2xl text-[12px] sm:text-sm;
   }
   .admin-id {
     @apply cursor-pointer;
   }
   .fecha {
-    @apply text-xs text-secondary;
+    @apply text-xs text-terciary;
   }
   .ctr-jugadores {
     @apply mt-4 flex justify-between items-center gap-2 sm:gap-4 lg:gap-8;
