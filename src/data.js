@@ -52,6 +52,16 @@ export const dataPlayers = [
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-kaisa.webp`,
     wo: 1,
   },
+    {
+    id: 'Darck#GV7',
+    name: 'Darck',
+    elo: 'Maestro',
+    puntos: 2,
+    kills: 3,
+    defeat: 2,
+    catImg: `${import.meta.env.BASE_URL}cat-players/cat-ahri.webp`,
+    wo: 2,
+  },
   {
     id: 'AS Khyone nevah#Lux',
     name: 'AS Khyone nevah',
@@ -62,18 +72,6 @@ export const dataPlayers = [
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-lux.webp`,
     wo: 0,
   },
-
-  {
-    id: 'Darck#GV7',
-    name: 'Darck',
-    elo: 'Maestro',
-    puntos: 2,
-    kills: 3,
-    defeat: 2,
-    catImg: `${import.meta.env.BASE_URL}cat-players/cat-ahri.webp`,
-    wo: 2,
-  },
-
   {
     id: 'redencionArc#0101',
     name: 'redencionArc',
