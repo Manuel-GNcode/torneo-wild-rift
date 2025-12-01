@@ -36,7 +36,7 @@ export const dataPlayers = [
     name: 'Venta de kamas',
     elo: 'Diamante',
     puntos: 3,
-    kills: 1,
+    kills: 3,
     defeat: 1,
     catImg: `${import.meta.env.BASE_URL}cat-players/cat-akali.webp`,
     wo: 1,
